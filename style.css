@@ -21,6 +21,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    box-shadow:8px 8px 0 0 black;
+    border: 1px solid;
 }
 .one{
  width: 336px;
@@ -36,6 +38,7 @@ body{
     gap: 12px;
 }
 .learning{
+    
     width: 82px;
     height: 29px;
     display: flex;
@@ -77,4 +80,35 @@ h2{
     height: 21px;
     font-size: 14px;
     font-weight: 700;
+}
+@media (max-width:700px){
+.wrapper{
+    width: 327px;
+    height: 501px;
+}
+.one{
+    width: 279px;
+    height: 200px;
+}
+.two{
+    width: 279px;
+    height: 173px;
+}
+.learning{
+    width: 73px;
+    height: 26px;
+}
+.published{
+    font-size: 12px;
+    width: 123px;
+    height: 18px;
+}
+h2{
+    width: 279px;
+    height: 30px;
+    font-size: 20px;
+}
+.languages{
+    font-size: 14px;
+}
 }
