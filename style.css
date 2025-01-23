@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree";
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+}
+.wrapper{
+    width: 384px;
+    height: 522px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.one{
+ width: 336px;
+ height: 200px;
+ background-image: url(./assets/images/illustration-article.svg);
+ border-radius: 10px;
+}
+.two{
+    width: 336px;
+    height: 194px;   
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.learning{
+    width: 82px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: #F4D04E;
+    color: #111111;
+    font-weight: 700;
+}
+.published{
+    width: 143px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 150%;
+}
+h2{
+    height: 36px;
+}
+.languages{
+    font-size: 16px;
+    color: #6B6B6B;
+}
+.profile{
+    width: 129px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.profile img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.profile span{
+    width: 85px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 700;
+}
